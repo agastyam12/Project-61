@@ -1,0 +1,100 @@
+body{
+  text-align:center;
+  background: linear-gradient( #D50000 0%,#00E5FF 100%);
+  background-repeat:no-repeat;
+}
+img{
+  width:100px;
+  border-radius:50%;
+}
+h1{
+  font-size:50px;
+  text-shadow: 2px 2px gold;
+}
+p{
+  font-size:30px;
+}
+h2{
+ font-size:40px; 
+  color:greenyellow;
+}
+.menu{
+   position:fixed;
+    top:0px;
+    z-index:10;
+    background:white;
+    width:100%;
+    margin-top:0px;
+}
+.link {
+    display:inline;
+    padding-left:33px;
+    padding-right:25px;
+    font-family:fantasy;
+    font-size:20px;
+}
+.link:hover{
+    background-color:#03fcad;
+}
+#my_work, #referances{
+    font-size:50px;
+    color:darkblue;
+    text-align:center;
+}
+.menu a{
+    color="gold"
+    
+}
+#bio{
+    padding:20px;
+    font-size:42px;
+    background-color:coral;
+}
+a{
+    text-decoration:none;
+}
+.button{
+    background-color:greenyellow;
+    border:none;
+    color:white;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    font-size:15px;
+    display:inline-block;
+    
+}
+inspiration {
+    background:linear-gradient(#14e333 0%, #14c1e3 100%);
+    padding-top:20px;
+}
+#picture{
+    width:auto;
+    height:300px;
+    border-radius:0%;
+    margin:20px;
+}
+img {
+    transition:transform . 2s;
+    border:10px solid #1430e3;
+}
+img:hover{ 
+    text-decoration:underline;
+    font-size:25px;
+}
+html {
+    scroll-behavior:smooth;
+}
+.contact1 h3 {
+    display:inline;
+}
+.contact1 a {
+    color:white;
+    text-shadow:none;
+}
+#contact iframe {
+    width:100%;
+}
+#contact {
+    background:firebrick;
+}
